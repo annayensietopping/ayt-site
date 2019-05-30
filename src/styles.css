@@ -3,6 +3,7 @@ header {
   background-size: contain;
   color: whitesmoke;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header h1 {
@@ -13,15 +14,18 @@ header nav {
   position: absolute;
   right: 0;
   padding-right: 10%;
+  padding-top: 20px;
   color: white;
 }
 
-header nav a, footer a {
+header nav a,
+footer a {
   color: white;
   text-decoration: none;
 }
 
-header nav a:hover, footer a:hover {
+header nav a:hover,
+footer a:hover {
   color: blue;
   text-transform: uppercase;
 }
@@ -35,9 +39,9 @@ header h2 {
 }
 
 #icon img {
-  border-radius: 50%;
-  height: 50%;
-  width: 50%;
+  border-radius: 100%;
+  height:300px;
+  width: 300px;
 }
 
 .center {
@@ -45,6 +49,10 @@ header h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#icon {
+  max-width: 450px;
 }
 
 footer {
@@ -55,9 +63,14 @@ footer {
   width: 100%;
 }
 
+footer a {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul {
-  margin-top: 25%;
-  margin-bottom: 25%;
+  padding-top: 10%;
+  padding-bottom: 25%;
   max-width: 600px;
 }
 
@@ -72,4 +85,3 @@ ul li p {
   padding-left: 5%;
   padding-right: 5%;
 }
-

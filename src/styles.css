@@ -1,13 +1,21 @@
+* {
+  font-family: Roboto;
+}
+
 header {
   background-image: url(/src/images/windows);
   background-size: contain;
   color: whitesmoke;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 header h1 {
   padding-top: 10%;
+  padding-bottom: 15%;
+  margin-bottom: 10%;
+  text-shadow: 5px 1px #ff0000;
+  /* random  color generator use JS? */
 }
 
 header nav {
@@ -91,4 +99,7 @@ ul li p {
 
 #resume {
   text-align: center;
+}
+#footer-reveal {
+  display: none;
 }

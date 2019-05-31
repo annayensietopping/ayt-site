@@ -5,14 +5,15 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="src/styles.css">
 	<link rel="icon" href="http://example.com/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:400,500,700" rel="stylesheet">
 </head>
 
 
 <body>
-	<header background-image="src/images/windows">
+	<header background-image="src/images/windows" id="mast-head">
 		<nav> <a href="resume.html">Resume</a> </nav>
 		<h1>Anna Yensie Topping</h1>
-		<h2>resume headline</h2>
+		<!-- <h2>resume headline</h2> -->
 	</header>
 
 	<div id="main">
@@ -41,7 +42,7 @@
 					<img src="src/images/GA-LOGO.png" alt="" class="circle" width="25%">
 				</li>
 				<li>
-					<img src="src/images/JPL-LOGO.jpg" alt="" class="circle" width="25%">
+					<img src="src/images/JPL-LOGO.jpg" alt="" width="25%">
 					<p>In the past, I worked as the Marketing Coordinator for J.P. Licks Homemade Ice Cream and Coffee Café. In this
 						role, I was responding to customer emails, managing events and donations and running all social media accounts.
 						Follow J.P. Licks on Instagram, Twitter, and Facebook. My favorite flavor of ice cream is Brownie Batter.</p>
@@ -50,11 +51,18 @@
 		</section>
 	</div>
 	<footer>
-		<a href="mailto: itsannatopping@gmail.com">Hire Me</a>
+		<div id="footer-hover">
+			<p>Hire Me</p>
+		</div>
+		<div id="footer-reveal">
+			<p>
+				<a href="mailto: itsannatopping@gmail.com">itsannatopping@gmail.com</a>
+			</p>
+		</div>
 	</footer>
 
 	<script src="src/index.js">
-	</script>
+</script>
 </body>
 
 </html>

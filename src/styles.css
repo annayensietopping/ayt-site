@@ -44,6 +44,9 @@ header h2 {
   width: 300px;
 }
 
+#icon p {
+  text-align: center;
+}
 .center {
   margin: 0 auto;
   display: block;

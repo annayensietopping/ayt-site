@@ -27,7 +27,7 @@ header nav {
 }
 
 header nav a,
-footer a {
+footer p {
   color: white;
   text-decoration: none;
 }
@@ -102,4 +102,20 @@ ul li p {
 }
 #footer-reveal {
   display: none;
+}
+
+#footer-link {
+  font-size: 0.5em;
+}
+
+.cool-text {
+  margin: auto;
+  font-size: 7em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 2px cyan;
+  text-shadow: 5px 10px hotpink;
+  font-style: italic;
+  word-break: break-all;
 }

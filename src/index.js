@@ -21,5 +21,5 @@ $.get(
 });
 
 function data(data) {
-  $("header #mast-head").attr("src", data.urls.regular);
+  $("header").attr("background-image", data.urls.regular);
 }

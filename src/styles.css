@@ -10,14 +10,6 @@ header {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-header h1 {
-  padding-top: 10%;
-  padding-bottom: 15%;
-  margin-bottom: 10%;
-  text-shadow: 5px 1px #ff0000;
-  /* random  color generator use JS? */
-}
-
 header nav {
   position: absolute;
   right: 0;
@@ -114,8 +106,8 @@ ul li p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: transparent;
-  -webkit-text-stroke: 2px cyan;
-  text-shadow: 5px 10px hotpink;
+  -webkit-text-stroke: 2px lime;
+  text-shadow: 5px 10px royalblue;
   font-style: italic;
   word-break: break-all;
 }

@@ -10,6 +10,10 @@ header {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
+h1 {
+  font-size: 0.5em;
+}
+
 header nav {
   position: absolute;
   right: 0;
@@ -26,12 +30,12 @@ footer p {
 
 header nav a:hover,
 footer a:hover {
-  color: blue;
+  color: lime;
   text-transform: uppercase;
 }
 
-header h2 {
-  padding-bottom: 50px;
+#main {
+  margin-top: 5%;
 }
 
 .circle {
@@ -72,7 +76,7 @@ footer a {
 }
 
 ul {
-  padding-top: 10%;
+  padding-top: 3%;
   padding-bottom: 15%;
   max-width: 600px;
 }
@@ -102,12 +106,12 @@ ul li p {
 
 .cool-text {
   margin: auto;
-  font-size: 7em;
+  font-size: 5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: transparent;
   -webkit-text-stroke: 2px lime;
   text-shadow: 5px 10px royalblue;
   font-style: italic;
-  word-break: break-all;
+  word-break: break-word;
 }

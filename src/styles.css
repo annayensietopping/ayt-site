@@ -46,6 +46,7 @@ footer a:hover {
 #icon img {
   border-radius: 100%;
   width: 250px;
+  height: 250px;
 }
 
 #icon p {
@@ -95,6 +96,10 @@ ul li p {
 
 #resume {
   text-align: center;
+}
+
+#resume img {
+  max-width: 800px;
 }
 #footer-reveal {
   display: none;

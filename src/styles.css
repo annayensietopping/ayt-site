@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url(/src/images/windows);
+  /* background-image: url(/src/images/windows); */
   background-size: contain;
   color: whitesmoke;
   text-align: center;
@@ -13,6 +13,7 @@ header {
 h1 {
   font-size: 0.5em;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 header nav {
@@ -31,7 +32,7 @@ footer p {
 
 header nav a:hover,
 footer a:hover {
-  color: lime;
+  color: gray;
   text-transform: uppercase;
 }
 
@@ -67,7 +68,6 @@ body {
 }
 
 footer {
-  background-color: royalblue;
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -75,7 +75,7 @@ footer {
 }
 
 footer a {
-  font-size: 40px;
+  font-size: 5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   color: white;
@@ -120,8 +120,8 @@ ul li p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: transparent;
-  -webkit-text-stroke: 2px lime;
-  text-shadow: 5px 10px royalblue;
+  -webkit-text-stroke: 2px white;
+  text-shadow: 5px 10px gray;
   font-style: italic;
   word-break: break-word;
 }

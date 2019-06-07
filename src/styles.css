@@ -62,6 +62,9 @@ footer a:hover {
 #icon {
   max-width: 450px;
 }
+body {
+  margin: 0;
+}
 
 footer {
   background-color: royalblue;
@@ -74,6 +77,8 @@ footer {
 footer a {
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 ul {

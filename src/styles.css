@@ -16,25 +16,17 @@ h1 {
   padding-bottom: 5%;
 }
 
-footer nav {
-  position: center;
-  padding-bottom: 20px;
-  color: white;
-}
-
-footer nav a {
-  font-size: 1em;
-}
-
-footer nav a,
-footer p {
+footer p a {
   color: white;
   text-decoration: none;
+  font-size: 25px;
 }
 
-footer nav a:hover,
+footer p {
+  padding-top: 5%;
+}
+
 footer a:hover {
-  color: gray;
   text-decoration: underline;
 }
 
@@ -68,6 +60,7 @@ footer a:hover {
 }
 body {
   margin: 0;
+  font-family: Verdana;
 }
 
 footer {
@@ -77,12 +70,12 @@ footer {
   width: 100%;
 }
 
-#footer-link {
+/* #footer-link {
   font-size: 5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   color: white;
-}
+} */
 
 ul {
   padding-top: 3%;
@@ -128,3 +121,26 @@ ul li p {
   font-style: italic;
   word-break: break-word;
 }
+
+button {
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 2% 5%;
+  background-color: gray;
+}
+
+button a {
+  text-decoration: none;
+  font-family: Verdana;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  header #mast-head {
+height:100%;
+  }
+}
+ footer nav {
+   
+ }
+

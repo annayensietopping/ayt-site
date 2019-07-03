@@ -2,18 +2,30 @@
   font-family: Roboto;
 }
 
+body {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+}
+
 header {
   /* background-image: url(/src/images/windows); */
   background-size: contain;
   color: whitesmoke;
   text-align: center;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  display: flex;
+  flex-direction: row-reverse;
+  background: none;
 }
 
 h1 {
   font-size: 0.5em;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 footer p a {
@@ -68,6 +80,7 @@ footer {
   padding-top: 5%;
   padding-bottom: 5%;
   width: 100%;
+  background: none;
 }
 
 /* #footer-link {
@@ -135,12 +148,14 @@ button a {
   color: white;
 }
 
+.resume button a{
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   header #mast-head {
-height:100%;
+    height: 100%;
   }
 }
- footer nav {
-   
- }
-
+footer nav {
+}

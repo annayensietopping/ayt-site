@@ -3,7 +3,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #79b246, #ffffff, #79b246);
+  background: linear-gradient(-45deg, #79b246, hsla(92, 44%, 90%, 1), #79b246);
   background-size: 100% 100%;
   padding: 0 16px;
   padding-bottom: 32px;

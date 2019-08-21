@@ -2,23 +2,23 @@
   font-family: Roboto;
 }
 
-html { 
-background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+html {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 body {
-    background: white;
-      background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-      background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    padding: 0 16px;
-    padding-bottom: 32px;
+  background: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  padding: 0 16px;
+  padding-bottom: 32px;
 }
 
 a {
-  color: #23A6D5;
+  color: #23a6d5;
 }
 
 header {
@@ -65,14 +65,14 @@ footer a:hover {
   max-width: 640px;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid #23A6D5;
+  border: 1px solid #23a6d5;
   padding: 32px;
 }
 
 #main hr {
   margin: 0 16px;
   border: none;
-  border-top: 1px solid #23A6D5;
+  border-top: 1px solid #23a6d5;
   width: 100%;
 }
 
@@ -84,7 +84,7 @@ footer a:hover {
   border-radius: 100%;
   width: 180px;
   height: 180px;
-  border: 4px double #23A6D5;
+  border: 4px double #23a6d5;
 }
 
 #icon p {
@@ -101,7 +101,7 @@ footer a:hover {
   max-width: 800px;
   width: 100%;
   display: flex;
-  align-content: center;
+  align-items: center;
 }
 
 #icon .bio {
@@ -157,7 +157,7 @@ button {
   border-radius: 3px;
   font-size: 20px;
   padding: 16px;
-  background-color: rgba(255,255, 255, .2);
+  background-color: rgba(255, 255, 255, 0.2);
   border: none;
   margin: 8px;
 }
@@ -166,7 +166,7 @@ button a {
   text-decoration: none;
   color: white;
   font-weight: normal;
-  font-size: 14px
+  font-size: 14px;
 }
 
 .card {
@@ -197,7 +197,7 @@ button a {
 
 @media only screen and (max-width: 600px) {
   header .cool-text {
-    font-size: 64px;
+    font-size: 60px;
   }
   header #mast-head {
     height: 100%;
@@ -207,7 +207,7 @@ button a {
   }
 
   #icon .bio {
-     padding: 0;
+    padding: 0;
   }
 }
 footer nav {

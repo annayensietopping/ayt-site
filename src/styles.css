@@ -2,23 +2,15 @@
   font-family: Roboto;
 }
 
-html {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-}
-
 body {
-  background: white;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #79b246, #ffffff, #79b246);
+  background-size: 100% 100%;
   padding: 0 16px;
   padding-bottom: 32px;
 }
 
 a {
-  color: #23a6d5;
+  color: #79b246;
 }
 
 header {
@@ -65,14 +57,14 @@ footer a:hover {
   max-width: 640px;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid #23a6d5;
+  border: 1px solid #79b246;
   padding: 32px;
 }
 
 #main hr {
   margin: 0 16px;
   border: none;
-  border-top: 1px solid #23a6d5;
+  border-top: 1px solid #79b246;
   width: 100%;
 }
 
@@ -84,7 +76,7 @@ footer a:hover {
   border-radius: 100%;
   width: 180px;
   height: 180px;
-  border: 4px double #23a6d5;
+  border: 4px double #79b246;
 }
 
 #icon p {
@@ -148,7 +140,7 @@ ul li p {
   font-weight: 900;
   color: transparent;
   -webkit-text-stroke: 2px white;
-  text-shadow: 5px 10px gray;
+  text-shadow: 5px 10px #ff7e57;
   font-style: italic;
   word-break: break-word;
 }
@@ -157,16 +149,16 @@ button {
   border-radius: 3px;
   font-size: 20px;
   padding: 16px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   border: none;
   margin: 8px;
 }
 
 button a {
   text-decoration: none;
-  color: white;
   font-weight: normal;
   font-size: 14px;
+  color: black;
 }
 
 .card {
@@ -197,7 +189,7 @@ button a {
 
 @media only screen and (max-width: 600px) {
   header .cool-text {
-    font-size: 60px;
+    font-size: 50px;
   }
   header #mast-head {
     height: 100%;
@@ -213,7 +205,7 @@ button a {
 footer nav {
 }
 
-a {
+a.squiggly {
   font-weight: 400;
   color: #79b246;
   padding-bottom: 5px;
@@ -231,9 +223,6 @@ a {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
-
-a {
   animation-play-state: running;
 }
 

@@ -191,6 +191,10 @@ button a {
   margin-top: 10px;
 }
 
+.middleBody {
+  margin-bottom: 1.5em;
+}
+
 @media only screen and (max-width: 600px) {
   header .cool-text {
     font-size: 50px;

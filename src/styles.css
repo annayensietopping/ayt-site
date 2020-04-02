@@ -164,6 +164,7 @@ button a {
 .card {
   margin: 8px 0;
   margin-bottom: 16px;
+  margin-top: 25px;
 }
 
 .card .company {

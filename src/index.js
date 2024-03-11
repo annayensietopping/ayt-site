@@ -1,5 +1,22 @@
 import "./styles.css";
 import { default as $ } from "jquery";
+import { datadogRum } from '@datadog/browser-rum';
+
+datadogRum.init({
+    applicationId: '706ae751-318d-4999-91b3-021e6e3deaea',
+    clientToken: 'pub77e9ca4a999c423d6025dea896e10594',
+    site: 'datadoghq.com',
+    service: 'annas-site',
+    env: 'prod',
+    // Specify a version number to identify the deployed version of your application in Datadog
+    // version: '1.0.0', 
+    sessionSampleRate: 100,
+    sessionReplaySampleRate: 20,
+    trackUserInteractions: true,
+    trackResources: true,
+    trackLongTasks: true,
+    defaultPrivacyLevel: 'mask-user-input',
+});
 
 function data(data) {
   $("header").attr("background-image", data.urls.regular);

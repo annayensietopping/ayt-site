@@ -3,8 +3,8 @@ import { default as $ } from "jquery";
 import { datadogRum } from '@datadog/browser-rum';
 
 datadogRum.init({
-    applicationId: '706ae751-318d-4999-91b3-021e6e3deaea',
-    clientToken: 'pub77e9ca4a999c423d6025dea896e10594',
+    applicationId: '3447aaf4-25bf-46dd-ad1b-a6ff5fdf6539',
+    clientToken: 'pubfdcc9076a94b8b8da019e14c079cad6f',
     site: 'datadoghq.com',
     service: 'annas-site',
     env: 'prod',

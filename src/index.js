@@ -6,10 +6,10 @@ datadogRum.init({
     applicationId: '3447aaf4-25bf-46dd-ad1b-a6ff5fdf6539',
     clientToken: 'pubfdcc9076a94b8b8da019e14c079cad6f',
     site: 'datadoghq.com',
-    service: 'annas-site',
+    service: 'ayt-site',
     env: 'prod',
     // Specify a version number to identify the deployed version of your application in Datadog
-    // version: '1.0.0', 
+    version: '1.0.0', 
     sessionSampleRate: 100,
     sessionReplaySampleRate: 20,
     trackUserInteractions: true,

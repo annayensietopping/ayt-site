@@ -1,254 +1,41 @@
-* {
-  font-family: Roboto;
-}
-
 body {
-  background: linear-gradient(-45deg, #79b246, hsla(92, 44%, 90%, 1), #79b246);
-  background-size: 100% 100%;
-  padding: 0 16px;
-  padding-bottom: 32px;
-}
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the body takes up the entire viewport height */
+    text-align: center;
+    background: linear-gradient(-45deg, #79b246, hsla(92, 44%, 90%, 1), #79b246);
 
-a {
-  color: #FF7E57;
 }
-
+header, footer, main {
+    flex: 1; /* Let header, footer, and main grow equally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header {
-  color: whitesmoke;
-  text-align: center;
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 32px;
+    color: orange; /* Orange text color */
+    justify-content: space-evenly;
+    padding: 2.5vh;
 }
-
-#history .xp {
-  display: flex;
-  align-items: center;
-  margin-top: 32px;
-  margin-bottom: 0;
-}
-
-.xp h3 {
-  margin: 0;
-}
-
-h1 {
-  font-size: 0.5em;
-}
-
-footer p a {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-footer p {
-  padding-top: 5%;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-#main {
-  margin-top: 32px;
-  background: whitesmoke;
-  box-shadow: 1px 1px 5px #666;
-  max-width: 640px;
-  margin: 0 auto;
-  border-radius: 10px;
-  border: 1px solid #79b246;
-  padding: 32px;
-}
-
-#main hr {
-  margin: 0 16px;
-  border: none;
-  border-top: 1px solid #79b246;
-  width: 100%;
-}
-
-.circle {
-  border-radius: 200px;
-}
-
-#icon img {
-  border-radius: 100%;
-  width: 180px;
-  height: 180px;
-  border: 4px double #79b246;
-}
-
-#icon p {
-  text-align: left;
-}
-.center {
-  margin: 0 auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#icon {
-  max-width: 800px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-#icon .bio {
-  padding-left: 32px;
-}
-
-body {
-  margin: 0;
-}
-
-footer {
-  text-align: center;
-  margin: 16px 0;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-ul li p {
-}
-
-#footer-reveal {
-  display: none;
-}
-
-#footer-link {
-  font-size: 0.5em;
+header img {
+    max-height: 40vh; /* Set a maximum height for the image */
+    height: auto; /* Maintain aspect ratio */ 
 }
 
 .cool-text {
-  margin: auto;
-  font-size: 5em;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  color: transparent;
-  -webkit-text-stroke: 2px white;
-  text-shadow: 5px 10px #ff7e57;
-  font-style: italic;
-  word-break: break-word;
-}
-
-button {
-  border-radius: 3px;
-  font-size: 20px;
-  padding: 16px;
-  background-color: white;
-  border: none;
-  margin: 8px;
-}
-
-button a {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  color: black;
-}
-
-.card {
-  margin: 8px 0;
-  margin-bottom: 16px;
-  margin-top: 25px;
-}
-
-.card .company {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.card .sub {
-  display: flex;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  justify-content: space-between;
-}
-
-.card .title {
-  font-size: 14px;
-}
-
-.card .time {
-  margin: 0 8px;
-  font-size: 14px;
-}
-
-.jpsamples {
-  margin-top: 10px;
-}
-
-.middleBody {
-  margin-bottom: 1.5em;
-}
-
-@media only screen and (max-width: 600px) {
-  header .cool-text {
-    font-size: 50px;
-  }
-  header #mast-head {
-    height: 100%;
-  }
-  #icon {
-    display: block;
+    font-size: 7vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 5px 10px #ff7e57;
+    font-style: italic;
+    word-break: break-word;
   }
 
-  #icon .bio {
-    padding: 0;
-  }
-}
-footer nav {
-}
-
-a.squiggly {
-  font-weight: 400;
-  color: #79b246;
-  padding-bottom: 5px;
-  background: url("https://ewebdesign.com/wp-content/themes/ewebdesign/assets/img/wave.svg");
-  background-repeat: repeat;
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-size: auto auto;
-  background-repeat: repeat-x;
-  background-size: 15px 5px;
-  background-position: 2px 19px;
-  animation: move 15s linear infinite;
-  -webkit-animation: move 15s linear infinite;
-  animation-play-state: paused;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  animation-play-state: running;
-}
-
-@-webkit-keyframes move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
-  }
-}
-
-@keyframe move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
-  }
+footer {
+    color: white; /* White text color */
 }

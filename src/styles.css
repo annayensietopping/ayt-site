@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: #FF7E57;
+  color: #D2042D;
 }
 
 header {
@@ -58,14 +58,14 @@ footer a:hover {
   max-width: 640px;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid #79b246;
+  border: 1px solid #500E10;
   padding: 32px;
 }
 
 #main hr {
   margin: 0 16px;
   border: none;
-  border-top: 1px solid #79b246;
+  border-top: 1px solid #500E10;
   width: 100%;
 }
 
@@ -77,7 +77,7 @@ footer a:hover {
   border-radius: 100%;
   width: 180px;
   height: 180px;
-  border: 4px double #79b246;
+  border: 4px double #500E10;
 }
 
 #icon p {
